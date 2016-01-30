@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/sender_key"
+            android:text="发送者："
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/senderName_value"
+            android:textSize="18dp"
+            android:text="小明"
+            android:textColor="#000000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/sendDate_value"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text="2015-12-26"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/sendTime_value"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text="13:14:20"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/cityName_key"
+            android:text="城市："
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/cityName_value"
+            android:textSize="14dp"
+            android:text="广州"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/weather_key"
+            android:text="天气："
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/weatherValue_value"
+            android:textSize="14dp"
+            android:text="小雨，20~15℃，空气湿度80%，微风"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/futureWeather_key"
+            android:text="未来一天天气："
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/futureWeather_value"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="小雨，19~13℃，空气湿度80%，微风"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
